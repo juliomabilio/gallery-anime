@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <title>Single Page</title>
+
+    <script type="text/javascript">
+   
+       function themeToggle() {
+        return document.documentElement.classList.toggle('ligth');
+       }
+
+    </script>
+
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="logo">ANIME.GALLERY</div>
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="./gallery.html">Galeria</a>
+            <a href="#">Contact</a>
+          </div>
+          <button class="btn" type="button" onclick="javascript:themeToggle()">Dark</button>
+        </div>
+      </div>
+    </nav>
+    <!-- section banner -->
+    <section class="about padding">
+      <div class="container">
+        <div class="row">
+          <div class="img-about">
+            <img src="./img/1.jpg">
+          </div>
+          <div class="text-about">
+            <h2>Tagline</h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Molestias earum ipsa adipisci 
+              quam id illo ad libero praesentium necessitatibus
+               mollitia quod officia veniam nobis nesciunt pariatur, 
+               quidem quia culpa eveniet!
+            </p>
+            <button>Button action</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section barra-cinza -->
+      <div class="container barra-cinza">
+        <div class="row">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Voluptatibus voluptate saepe commodi quia sunt.</p>
+        </div>
+      </div>
+  </body>
+</html>
