@@ -12,6 +12,7 @@
 .navbar .row{
     gap: 2rem;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo{
@@ -21,8 +22,8 @@
 .navbar .menu{
     width: 70%;
     display: flex;
-    justify-content: center;
     gap: 1rem;
+    justify-content: center;
 }
 
 
@@ -34,10 +35,11 @@
 
 .about .row{
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .img-about{
-    width: 60%;
+    width: 55%;
 }
 .img-about img{
     width: 100%;
@@ -136,6 +138,14 @@ h1{
     .containner{
         column-count: 3;
     }
+
+    .img-about{
+        width: 100%;
+    }
+    .text-about{
+        width: 100%;
+    }
+    
 }
 @media(max-width:425px){
     .containner{
